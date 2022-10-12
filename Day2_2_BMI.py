@@ -7,6 +7,6 @@ bmi_two_dec_round  = round(bmi_value,3)
 
 print(type(bmi_two_dec_format))
 print(type(bmi_two_dec_round))
-
 print("Your BMI is: " + bmi_two_dec_format + " (format method)")
 print("Your BMI is: " + str(bmi_two_dec_round) + " (round function)")
+print(f"Your height is {num_height}, your weight is {num_weight}, your BMI is {bmi_two_dec_round}")
