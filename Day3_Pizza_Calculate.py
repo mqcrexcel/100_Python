@@ -3,9 +3,10 @@ print("Welcome to Manh Quan Pizza's Company")
 # Get input of Pizza size
 size = input("Which size you want ? S, M or L ? ")
 money = 0
+print(size)
 
 # If Pizza size is S
-if size == "S" or "s":
+if size == "S" or size == "s":
     money = money + 15
     print("+15$ for size S")
     
